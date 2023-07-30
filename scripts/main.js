@@ -3,7 +3,6 @@ $(document).ready(function(){
 
     console.log("Hello");
 
-  
 
     // -----------------------------------------
     // Home Page
@@ -11,6 +10,8 @@ $(document).ready(function(){
     // When the document loads, animate the hero image upwards
     $(".hero-image").animate({top: '-=100px'});
     
+
+    // When the accordion is clicked, toggle info
     $("#ac-1").click(function(){
       $("#collapse1").collapse('toggle');
     });
