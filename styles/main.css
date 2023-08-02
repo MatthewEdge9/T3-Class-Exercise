@@ -118,5 +118,117 @@ button {
 }
 
 
+/* ---------------------------------------------------------------- */
+/* Wishlist Page */
 
+#wishpage{
+    background-color: #ffffff;
+}
+
+#wishlist{
+    margin-top: 85px;
+    height: 240px;
+    background-color: #ffffff;
+    position: relative;
+    align-self:auto;
+    text-align: center;
+}
+
+#row-1{
+    height: 14vh;
+}
+
+#row-2{
+    height: 14vh;
+}
+
+#row-3{
+    height: 14vh;
+}
+
+#row-4{
+    height: 14vh;
+}
+
+#table{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1.5px;
+    border-color: #18382B;
+}
+
+#pictures{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1.5px;
+    border-color: #18382B;
+}
+
+#tableName{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1.5px;
+    border-color: #18382B;
+    padding-top: 5.4vh;
+    font-weight: bold;
+}
+
+#buttons{
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-width: 1.5px;
+    border-color: #18382B;
+    padding-top: 0.85vh;
+}
+
+.minus{
+    border: none;
+    padding: 0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding-left: 10px;
+}
+
+
+
+
+#photo-1{
+    background-repeat: none;
+    background-image: url("/assets/plant1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14vh;
+    width: 11vh;
+}
+
+#photo-2{
+    background-repeat: none;
+    background-image: url("/assets/plant2.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14vh;
+    width: 11vh;
+}
+
+#photo-3{
+    background-repeat: none;
+    background-image: url("/assets/plant3.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14vh;
+    width: 11vh;
+}
+
+#photo-4{
+    background-repeat: none;
+    background-image: url("/assets/plant4.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14vh;
+    width: 11vh;
+}
 
